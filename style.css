@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+h1.logo {
+
+}
+h1.“logo” {
+    font-size: 30px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    
+    float: left;    
+}
+
+.“logo” {
+    
+}
