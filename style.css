@@ -4,7 +4,7 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 1080px;
+    max-width: 980px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -57,9 +57,83 @@ header nav li a{
 
 section ul {
     clear:both;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+section li{
+    list-style: none;
+    padding: 0;
 }
 
 
+#articles{
+    margin:0;
+    padding:0;
+    width: 650px;
+}
+
+.title{
+    font-size: 20px;
+    color: #62a4d6;
+    font-weight: bold;
+    width: 640px;
+    margin: 0;
+    padding-top:18px;
+    border-top: 1px solid;
+    border-color: #dad9d9;
+    position: relative;
+    top: 5px;
+    clear:both;
+}
+
+.first-title{
+    font-size: 20px;
+    color: #62a4d6;
+    font-weight: bold;
+    width: 640px;
+    margin: 0;
+    padding-top:18px; 
+    
+}
+
+.time{
+    font-size: 12px;
+    color:#bfbfbf;
+    padding: 8px 0;
+}
+
+.btn{
+    font-size: 14px;
+    color: #62a4d6;
+    width: 100px;
+    padding: 10px 0;
+    margin: 0;
+    text-decoration: underline;
+    font-style: italic;
+    float: right;
+    text-align: right;
+}
+
+section li p{
+    font-size: 14px;
+    width: 650px;
+    margin: 0;
+    padding-top: 8px ;
+    color: #747474;
+    line-height: 25px;
+    clear: both;
+}
+
+
+
+section li img{
+    border-radius: 5px;
+    width: 650px;
+    margin: 0;
+    
+}
 
 
 
@@ -73,6 +147,7 @@ section ul {
 
 footer {
     background: #313131;
+    margin-top: 40px;
 }
 
 footer h2{
