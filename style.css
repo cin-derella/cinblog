@@ -9,18 +9,53 @@ body {
     margin: 0 auto;
 }
 
-h1.logo {
-
+header {
+    background: #313131;
 }
-h1.“logo” {
-    font-size: 30px;
+
+header:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+h1.logo {
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
-    width: 500px;
-    
-    float: left;    
+    width: 250px;
+    height: 45px;
+    margin: 10px 10px;
+    text-indent: -10000px;
+    float: left;
 }
 
-.“logo” {
+
+header nav{
+    float: right;
     
 }
+
+header nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+
+header nav li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 14px;
+    
+}
+
+section ul {
+    clear:both;
+}
+
