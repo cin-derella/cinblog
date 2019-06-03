@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -11,7 +12,11 @@ body {
 
 header {
     background: #313131;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
+
 
 header:after{
     content: "";
@@ -94,7 +99,7 @@ section li{
     font-weight: bold;
     width: 640px;
     margin: 0;
-    padding-top:18px; 
+    padding-top:80px; 
     
 }
 
@@ -105,15 +110,19 @@ section li{
 }
 
 .btn{
-    font-size: 14px;
-    color: #62a4d6;
+    font-size: 12px;
     width: 100px;
     padding: 10px 0;
     margin: 0;
     text-decoration: underline;
-    font-style: italic;
+    font-style: none;
     float: right;
     text-align: right;
+}
+
+.btn a{
+       color: #62a4d6;
+    
 }
 
 section li p{
