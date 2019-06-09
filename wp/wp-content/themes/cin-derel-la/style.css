@@ -627,7 +627,7 @@ textarea {
 }*/
 
 .entry-title a:hover, a:focus, a:active {
-	color: #333;
+	color: #ccc;
 }
 
 a:focus {
