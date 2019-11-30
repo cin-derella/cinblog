@@ -25,10 +25,10 @@ get_header();?>
                 <section id ="articles">
                    
                     
-                    <ul>
   
             <?php $myquery = new WP_Query('category_name=blog&posts_per_page=4');?>
 			<?php while ($myquery->have_posts() ) : $myquery->the_post();?>
+		<ul>
                     <li id="title">
                 
                             <a href="<?php the_permalink()?>"><?php the_title();?></a>
@@ -51,17 +51,16 @@ get_header();?>
                         <a href="<?php the_permalink()?>"><?php the_post_thumbnail();?></a>
                     </li>
                         
-                    <li id="excerpt">
+                    <li id="excerpt" style="width: 600px; float: left">
                     
                         <?php the_excerpt();?>
-                        <span><a href="<?php the_permalink()?>">阅读全文>></a></span>
+                        <span style="float: right"><a href="<?php the_permalink()?>">阅读全文>></a></span>
                
                     </li>
                     
-                        
+		</ul>                        
 
 			<?php endwhile;?>
-                    </ul>
 
                 </section>
 
